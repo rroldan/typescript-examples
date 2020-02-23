@@ -1,0 +1,21 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es5",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": false,
+    "outDir": "./www/out-tsc"
+    },
+    "typeRoots": [
+        "node_modules/@types"
+      ],
+      "types": [
+        "jest",
+        "node"
+      ],
+    "lib": ["es2017"]
+  }

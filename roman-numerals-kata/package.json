@@ -1,0 +1,14 @@
+{
+  "name": "roman-numerals-kata",
+  "version": "0.0.0",
+  "description": "Diseñar una función que escriba un número entero en números romanos",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.2"
+  }
+}
