@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "Diseñar una función que escriba un número entero en números romanos",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "tslint --project '.'"
   },
   "license": "MIT",
   "devDependencies": {
