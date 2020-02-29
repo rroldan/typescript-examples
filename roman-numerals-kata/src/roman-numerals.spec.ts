@@ -25,4 +25,20 @@ describe('convert decimal number to roman number', () => {
   test('convert 10 to X', () => {
     expect(convert(10)).toMatch('X');
   })
+  test('convert 11 to XI', () => {
+    expect(convert(11)).toMatch('XI');
+  })
+  test('convert 19 to XIX', () => {
+    expect(convert(19)).toMatch('XIX');
+  })
+  test('convert 40 to XL', () => {
+    expect(convert(40)).toMatch('XL');
+  })
+  test('convert 41 to XLI', () => {
+    expect(convert(41)).toMatch('XLI');
+  })
+  test('convert 50 to L', () => {
+    expect(convert(50)).toMatch('L');
+  })
+
 });
