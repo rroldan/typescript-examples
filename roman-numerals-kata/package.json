@@ -3,12 +3,23 @@
   "version": "0.0.0",
   "description": "Diseñar una función que escriba un número entero en números romanos",
   "scripts": {
-    "test": "jest",
+    "test": "jest --no-cache",
     "lint": "tslint --project '.'"
   },
   "license": "MIT",
+  "jest": {
+    "preset": "ts-jest",
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "./tsconfig.test.json"
+      }
+    }
+  },
   "devDependencies": {
+    "@types/jest": "^25.1.3",
+    "@types/node": "^13.7.7",
     "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
     "tslint": "^6.0.0",
     "typescript": "^3.8.2"
   }
