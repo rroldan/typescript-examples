@@ -37,12 +37,44 @@
         return "XL";
     }
 
-    if (decimalNumber > 40 && decimalNumber < 49) {
+    if (decimalNumber > 40 && decimalNumber < 50) {
         return convert(40) + convert(decimalNumber - 40)
     }
 
     if (decimalNumber === 50) {
         return "L";
+    }
+
+    if (decimalNumber > 50 && decimalNumber < 90) {
+        return convert(50) + convert(decimalNumber - 50)
+    }
+
+    if (decimalNumber === 90) {
+        return "XC";
+    }
+
+    if (decimalNumber > 90 && decimalNumber < 100) {
+        return convert(90) + convert(decimalNumber - 90)
+    }
+
+    if (decimalNumber === 100) {
+        return "C";
+    }
+
+    if (decimalNumber > 100 && decimalNumber < 400) {
+        return convert(100) + convert(decimalNumber - 100)
+    }
+
+    if (decimalNumber === 400) {
+        return "CD";
+    }
+
+    if (decimalNumber > 400 && decimalNumber < 500) {
+        return convert(400) + convert(decimalNumber - 400)
+    }
+
+    if (decimalNumber === 500) {
+        return "D";
     }
 }
 

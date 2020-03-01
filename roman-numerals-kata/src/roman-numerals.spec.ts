@@ -40,5 +40,22 @@ describe('convert decimal number to roman number', () => {
   test('convert 50 to L', () => {
     expect(convert(50)).toMatch('L');
   })
-
+  test('convert 73 to LXXIII', () => {
+    expect(convert(73)).toMatch('LXXIII');
+  })
+  test('convert 90 to XC', () => {
+    expect(convert(90)).toMatch('XC');
+  })
+  test('convert 100 to C', () => {
+    expect(convert(100)).toMatch('C');
+  })
+  test('convert 214 to CCXIV', () => {
+    expect(convert(214)).toMatch('CCXIV');
+  })
+  test('convert 400 to CD', () => {
+    expect(convert(400)).toMatch('CD');
+  })
+  test('convert 500 to D', () => {
+    expect(convert(500)).toMatch('D');
+  })
 });
