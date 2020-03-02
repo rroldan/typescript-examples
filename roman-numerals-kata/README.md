@@ -1,7 +1,8 @@
 #Números romanos
 Diseñar una función que escriba un número entero en números romanos
 
-Ejemplos
+Ejemplos:
+
    1 ➔ I
 
    2 ➔ II
@@ -21,5 +22,5 @@ Ejemplos
  100 ➔ C
 
  500 ➔ D
- 
+
 1000 ➔ M
