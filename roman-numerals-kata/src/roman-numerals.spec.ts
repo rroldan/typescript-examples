@@ -55,7 +55,25 @@ describe('convert decimal number to roman number', () => {
   test('convert 400 to CD', () => {
     expect(convert(400)).toMatch('CD');
   })
+  test('convert 430 to CD', () => {
+    expect(convert(430)).toMatch('CDXXX');
+  })
   test('convert 500 to D', () => {
     expect(convert(500)).toMatch('D');
+  })
+  test('convert 523 to D', () => {
+    expect(convert(523)).toMatch('DXXIII');
+  })
+  test('convert 900 to CM', () => {
+    expect(convert(900)).toMatch('CM');
+  })
+  test('convert 925 to CM', () => {
+    expect(convert(925)).toMatch('CMXXV');
+  })
+  test('convert 1000 to M', () => {
+    expect(convert(1000)).toMatch('M');
+  })
+  test('convert 1001 to Error', () => {
+    expect(convert(1001)).toMatch('error exceeded max number range');
   })
 });

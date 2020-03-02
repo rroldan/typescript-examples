@@ -76,5 +76,25 @@
     if (decimalNumber === 500) {
         return "D";
     }
+
+    if (decimalNumber > 500 && decimalNumber < 900) {
+        return convert(500) + convert(decimalNumber - 500)
+    }
+
+    if (decimalNumber === 900) {
+        return "CM";
+    }
+
+    if (decimalNumber > 900 && decimalNumber < 1000) {
+        return convert(900) + convert(decimalNumber - 900)
+    }
+
+    if (decimalNumber === 1000) {
+        return "M";
+    }
+
+    if (decimalNumber > 1000) {
+        return  "error exceeded max number range"
+    }
 }
 
