@@ -26,6 +26,5 @@
           arabicNumber -= conversion.arabic
         }
     })
-
     return result;
  }
